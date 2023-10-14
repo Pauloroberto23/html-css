@@ -1,0 +1,82 @@
+@charset "UTF 8";
+/*
+#c5ebd6
+#83e1ad
+#3ddc84
+#2fa866
+#1a5c37
+*/
+@font-face{
+    font-family: 'android';
+    src:url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+:root{
+    --cor1:#c5ebd6;
+    --cor2:#83e1ad;
+    --cor3:#3ddc84;
+    --cor4:#2fa866;
+    --cor5:#1a5c37;
+    --font-padrao:arial,verdana,helvetica,sans-serif; 
+    --font-destaque:
+    --font-Android:'android','cursive';
+
+
+}
+
+body{
+    background-color:var(--cor1);
+}
+
+header > h1{
+    color:var(--cor5);
+    font-family: var(--font-destaque);
+    min-height: 100px;
+    text-align: center;
+}
+header > p{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav{
+    background-color: var(--cor5);
+    padding-top: 10px;
+}
+nav >a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav > :hover{
+    background-color: var(--cor5);
+    color: var(--cor3);
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+main h1{
+    color: var(--cor5);
+    font-family: var(--font-padrao);
+}
+main h2{
+    font-family: var(--font-destaque);
+}
+main{
+
+}
+iframe {
+   
+    width: 100%;
+    left: 50px;
+    right: 100px;
+}
+footer{
+    background-color: var(--cor5);
+    color: white;
+    
+}
